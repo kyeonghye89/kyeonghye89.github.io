@@ -16,13 +16,11 @@
                             <hr class="star-primary">
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             
+                            {% if post.description %}
+                                <p>{{ post.description }}</p>
+                            {% endif %}
+
                             <ul class="list-inline item-details">
-                                {% if post.project %}
-                                    <li>프로젝트명:
-                                        <strong>{{ post.project }}
-                                        </strong>
-                                    </li>
-                                {% endif %}
                                 {% if post.project-date %}
                                     <li>수행 기간:
                                         <strong>{{ post.project-date }}
@@ -42,13 +40,10 @@
                                     </li>
                                 {% endif %}
                             </ul>
-                            {% if post.description %}
-                                <p>{{ post.description }}</p>
-                            {% endif %}
                             <ul class="list-inline item-details">
-                                {% if post.devlopment %}
+                                {% if post.development %}
                                     <li>주요 수행 업무:
-                                        <strong>{{ post.devlopment }}
+                                        <strong>{{ post.development }}
                                         </strong>
                                     </li>
                                 {% endif %}

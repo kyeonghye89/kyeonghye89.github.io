@@ -1,13 +1,14 @@
 ---
 layout: default
 modal-id: 2
+title: KT WEB STB HomePortal App
 date: 2015-01-01
 img: cabin.png
+img_icon: cabin.png
 alt: image-alt
 project-date: 2018.01 ~ 2021.12
-project: KT WEB STB HomePortal App
 category: javascript, html, css
 members: 4~6
-description: WEB 기반 HomePortal 앱 개발. PL 업무 및 전반적인 개발 업무 수행.
-develpment: 프로젝트 관리 / 결제, VOD, 채널, 앱 상태관리 등 전반적인 UI 및 비즈니스 로직 개발 업무 수행
+description: WEB 기반 HomePortal 앱 개발 / PL 업무 및 전반적인 개발 업무 수행
+development: 프로젝트 관리 / 결제, VOD, 채널, 앱 상태관리 등 전반적인 UI 및 비즈니스 로직 개발 업무 수행
 ---
